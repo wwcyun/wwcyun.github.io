@@ -1,0 +1,23 @@
+baseURL = "<https://github.com/wwcyun/wwcyun.github.io.git>" # 修改为自己的博客地址
+languageCode = "zh-CN"
+title = "Ww's Blog" # 修改“”中的内容为自己的网站名字
+theme = "agency" # 如果以后启用其它主题，在这里替换主题名字
+hasCJKLanguage = true
+enableEmoji = true
+
+[permalinks]
+  posts = "/:filenam
+
+[Menus] # 边栏目录
+  main = [
+      {Name = "Archives", URL = "<https://ittenblunt.github.io/my-blog/posts/>"},
+      {Name = "Tags", URL = "<https://ittenblunt.github.io/my-blog/tags/>"},
+      {Name = "Photos", URL = "<https://ittenblunt.github.io/my-blog/photos/>"}
+  ]
+
+[params] # 指定发布的文件目录和博客描述
+  # dir name of your blog content (default is `content/posts`)
+  contentTypeName = "posts"
+  # description abou this website
+  description = "There is only one thing in the world worse than being talked about, and that is not being talked about."
+
