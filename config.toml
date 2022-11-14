@@ -1,0 +1,21 @@
+baseURL = 'https://github.com/wwcyun/wwcyun.github.io.git'
+languageCode = 'en-us'
+title = 'welecome to my world'
+theme = 'learn'
+[[menu.main]]
+  identifier = "WCY"
+  name = "WCY"
+[[params.social]]
+  icon = "github"
+  name = "wwcyun"
+  url = "https://github.com/wwcyun"
+[params.style]
+lightColor = "#f5e3e0"
+[[params.social]]
+  icon = "Linkedin"
+  name = "Wanchunyun"
+  url = "https://www.linkedin.cn/incareer/in/ACoAADuWPVcBkQVX8LOzIfpiYpPl46YwoBs--bY"
+[[params.social]]
+  icon = "maimai"
+  name = "Wanchunyun"
+  url = "https://maimai.cn/profile/detail?dstu=234094869"
